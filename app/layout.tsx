@@ -45,6 +45,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           GeistMono.variable
         )}
       >
+        1
         <Toaster position="top-center" />
         <Providers
           attribute="class"
