@@ -45,7 +45,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
           GeistMono.variable
         )}
       >
-        1
         <Toaster position="top-center" />
         <Providers
           attribute="class"
@@ -53,6 +52,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           enableSystem
           disableTransitionOnChange
         >
+          2
           <div className="flex flex-col min-h-screen">
             <Header />
             <main className="flex flex-col flex-1 bg-muted/50">{children}</main>
